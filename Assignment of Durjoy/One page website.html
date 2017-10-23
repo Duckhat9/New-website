@@ -1,0 +1,473 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"><!--this tag defines the character set of this page-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--this part makes the page suitable for Mobile browsing-->
+	<title>
+	WELCOME TO THE FUTURE OF DMAN SOFT
+	</title>
+	<style type="text/css">
+		/* overflow specifies what happens if content overflows an element's box */
+		.Nav {
+		    background-color: #333;
+		    overflow: hidden;
+		}
+
+		/* this part is for navigation bar */
+		.Nav a {
+		    float: left;
+		    display: block;
+		    color: #f2f2f2;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		    font-size: 17px;
+		}
+
+		/* it changes the color while cursor is on it */
+		.Nav a:hover {
+		    background-color: #ddd;
+		    color: black;
+		}
+
+		/* this part is to add some color */
+		.Nav a.active {
+		    background-color: #4CAF50;
+		    color: white;
+		}
+		sub{
+			color:green;
+		}
+
+		table{
+			width: 100%
+		}
+		.tab th{
+			background-color: #DC4C46; /*this part contains the color of the table heading*/
+			text-align: center;
+		}
+		 tr{
+			background-color:white; /*this part contains the table row's color*/
+			font-family: Arial;
+			text-align: center;
+		}
+
+	</style>
+	</head>
+	<body>
+		<!--use of img tag -->
+		<img src="images/6.png">
+
+		<br> <!--this tag is used for creating gap/break-->
+		<img width="100%" src="images/10.png" alt="banner">
+		<div class="Nav" id="navg">
+	  <a href="#home">Home</a>  <!--SIR, I HAVE TRIED BUT COULDN'T SET THE IN PAGE LINK-->
+	  <a href="#member">Membership</a>
+	  <a href="#contact">Contact</a>
+	  <a href="#about">About</a>
+	</div>
+	<header style="background-color:#DC4C46;color:#000000; text-align: center;">
+		<h1>D-MAN SOFT TECH LTD&reg;</h1>
+	</header>
+
+	<div>
+		<p>"Sed ut perspiciatis unde <sup bg-color="red">omnis iste natus</sup> error sit voluptatem accusantium dantium, totam rem aperiam, eaque ipsa quae ab illo <sub>inventore</sub> veritatis et quasi architecto<br>
+		 <img src="images/1.jpg"> <!--JUST ANOTHER PRACTICE OF Img tag-->bea
+		 tae vitae dicta sunt explicabo. Nemo enim <em>ipsam voluptatem quia voluptas </em>sit aspernatur aut odit 
+		aut fugit, sed quia consequuntur <b>magni dolores</b> eos qui ratione voluptatem sequi nesciunt. Neque porro
+		 quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, <i>adipisci velit, sed</i> quia non
+		 numquam <mark>eius modi tempora incidunt ut labore et</mark> dolore<img src="https://drive.google.com/file/d/0B_J1oC6y96qLbmlBZXl4N3hRSjg"> magnam aliquam quaerat voluptatem. Ut enim
+		 ad minima veniam, quis nostrum exercitationem ullam corporis suscipit <del>laboriosam,</del> nisi ut aliquid 
+		 ex ea commodi consequatur? <pre>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+		 nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</pre>
+	</p>
+	<!--USE OF ANCHOR TAG/ a tag -->
+	<a 
+	href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiKvOyYxe3WAhUM2LwKHfQkAlsQFggnMAA&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDigital_art&usg=AOvVaw2MXZ8qIZUDCBLZ54Gl0WkW" alt="_blank">
+	More about us
+	</a>
+	<!--Use of Table Tag -->
+	</div><br>
+	<h1>Where to find D-Man</h1>
+
+	<div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+		<script>
+		function myMap() {
+		var mapOptions = {
+		    center: new google.maps.LatLng(23.591221, 89.823136),/*USED THE LOCATION OF FARIDPUR BUT IT DOESN'T SHOW EXACT LOCATIO*/
+		    zoom: 10,
+		    mapTypeId: google.maps.MapTypeId.ROADMAP
+		}
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		}
+		</script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBx8KKvhUH0Z_ng8CHwtWogf5eS9ejmy1A&callback=myMap">
+		</script>
+
+		<br><br>
+		<hr>
+		<br>
+	    <h2>Detail of the employees</h2>
+	<table class="tab" style="background-color:##DC4C46; border-color:#cc3300;" border="3px" >
+		<tr>
+			<th> NAME</th> <!--Th tag  IS FOR TABLE HEADER-->
+			<th>CONTACT NO</th>
+			<th>EMAIL</th>
+		</tr>
+		<tr>
+			  <td>Mr.Hasan<br>IT Manager</td>
+			  <td>01784587985</td>
+			  <td>hasna45@dman.soft.com</td>
+		</tr>
+		<tr>
+			  <td>Mr.Sajid<br>GFX Dept</td>
+			  <td>01715847885</td>
+			  <td>sajid.mh@dman.soft.com</td>
+		</tr>
+		<tr>
+			  <td>Mr.Johny<br>Software Dept</td>
+			  <td>01714785889</td>
+			  <td>johny87@dman.soft.com</td>
+		</tr>
+	</table>
+	<br>
+
+	<br>
+	<div style="background-color:#DC4C46;color:#000000;padding:20px;">
+		<!--USE OF Button tag-->
+		<h3 style="text-align: center;font-size:150%;">"Big Bunny" is the award winning character</h3>
+		  <button onclick="playPause()">play/pause</button>
+		  <button onclick="makeBig()">Big</button>
+		  <button onclick="makeSmall()">Small</button> <!--maybe onclick is INDICATING THE COMMAD-->
+		  <button onclick="makeNormal()">Normal</button>
+		  <button onclick="MuteUnmute()" type="button">Mute sound</button>
+		  <br><br>
+		<video id="vid1"width="640" height="480" controls>
+		<source src="video/2.mp4" type="video/mp4">
+		Your browser does not support HTML5 video.
+		</video>
+	</div>
+	<!--USE OF Script tag-->
+	<script>
+		var myVideo = document.getElementById("vid1"); 
+
+		function playPause() { 
+		    if (myVideo.paused) 
+		        myVideo.play(); 
+		    else 
+		        myVideo.pause(); 
+		} 
+		/*tried to create unMute button by myself. but it doesn't work properly. */
+		function MuteUnmute() { 
+		    if (myVideo.Mute) 
+		        myVideo.Unmute(); 
+		    else 
+		        myVideo.Mute();
+		}
+		function makeBig() { 
+		    myVideo.width = 950; 
+		} b
+
+		function makeSmall() { 
+		    myVideo.width = 320; 
+		} 
+
+		function makeNormal() { 
+		    myVideo.width = 420; 
+		} 
+	</script> 
+	<br>
+
+	<div style="background-color:#DC4C46;color:#000000;padding:20px;">
+		<p><strong>Musics heals</strong></p>
+	    <audio controls>
+		<source src="Audio/Allahu.mp3" type="audio/mp3">
+	    </audio>
+	</div>
+	<br><br> <!-- COLLECTED EMBEDDED CODE FROM YOUTUBE-->
+	  <iframe width="650" height="350" src="https://www.youtube.com/embed/8Z56Izo0Fxw" frameborder="0" allowfullscreen></iframe>
+	<br>
+	<br>
+	<iframe width="100%" height="350" src="subpage/new.html"></iframe>
+		<br>
+		<br>
+	<canvas id="myCanvas" width="310" height="100" style=" background-color:#ff6666; border:1px solid #d3d3d3;">
+	Your browser does not support the HTML5 canvas tag.</canvas>
+
+	<script>  
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	ctx.font = "30px Arial"; /*font is set to Arial*/
+	ctx.fillText("D-Man Soft Tech LTD",10,50); /*--here 10,50 are coordination of the text*/ 
+	</script>
+	<br><br>
+	<form style="background-color:#DC4C46;" action="mailto:durontodurjoy@gmail.com" method="get"> <!--use of form tag-->
+		<fieldset> <!--use of fieldset tag-->
+			<legend>Leave your comment below</legend>
+			First Name:<br>
+			<input type="text" name="firstname" placeholder="first name"><br>
+			Last Name:<br>
+			<input type="text" name="lastname" placeholder="last name"><br>
+			Email:<br>
+			<input type="text" name="Email" placeholder="someone@gmail.com"><br>
+			Comment Box<br>
+			<textarea rows="8" cols="30"></textarea><br>
+			<br>
+			<input type="submit" name="submit">
+		</fieldset>
+	</form>
+	<br><br>
+	<h1 style="background-color:#33ccff; color:#ffffff; text-align:center;">Member Section</h1>
+	<section id="#member">
+				<head>
+				<style>
+				div.container {
+				    width: 100%;
+				    border: 1px solid gray;
+				}
+
+				header, footer {
+				    padding: 1em;
+				    color: white;
+				    background-color: black;
+				    clear: left;
+				    text-align: center;
+				}
+
+
+				article {
+				    margin-left: 170px;
+				    border-left: 1px solid gray;
+				    padding: 1em;
+				    overflow: hidden;
+				}
+				</style>
+				</head>
+				<svg height="130" width="500">
+				  <defs>
+				    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+				      <stop offset="20%"
+				      style="stop-color:#ed7171;stop-opacity:2" />
+				      <stop offset="100%"
+				      style="stop-color:rgb(255,0,0);stop-opacity:1" />
+				    </linearGradient>
+				  </defs>
+				  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+				  <text fill="#ffffff" font-size="45" font-family="Verdana"
+				  x="43" y="86">DMan</text>
+				Sorry, your browser does not support inline SVG.
+				</svg>
+				<div class="container">
+
+				<header>
+				   <h1>Membership</h1>
+				</header>
+				  
+				<article>
+				  <form style="background-color:#DC4C46" action="mailto:durontodurjoy@gmail.com" method="post" enctype="text/plain">
+				  <fieldset>
+				    <legend>Personal information:</legend>
+				    <ul>
+				    <li>First name:<br>
+				    <input type="text" name="firstname" placeholder="first name" required></li><br>
+				    <li>Last name:<br>
+				    <input type="text" name="lastname" placeholder="last name"></li><br><br>
+				    <li>Your Gender:<br>
+				    <input type="radio" name="gender" value="male" checked> Male<br>
+					  <input type="radio" name="gender" value="female"> Female<br>
+					  <input type="radio" name="gender" value="other"> Other</li><br>
+				    <li>country:<br>
+				    <select name="country" required>
+				    <option value="India">India</option>
+				    <option value="Bangladesh">Bangladesh</option>
+				    <option value="England">England</option>
+				    </select></li>
+				    <br><br>
+				    <li>Profile pic:<input type="file" name="img" multiple></li>
+				    <br><br>
+				    <li>Favourite smartphone<br>
+				    <input list="Device" name="Device" placeholder="device name">
+				  <datalist id="Device">
+				    <option value="Symphony">
+				    <option value="Xiaomi">
+				    <option value="Nokia">
+				    <option value="Samsung">
+				    <option value="HTC">
+				  </datalist></li>
+				  <br><br>
+				  <li>Your favorite color<br><input type="color" name="color" value="#DC4C46"></li>
+				  <br><br>
+				  <li>Birthday:
+				  <input type="date" name="bday" required></li>
+				<br><br>
+				<li>Number of siblings
+				<input type="number" name="quantity" min="1" max="5"></li><br><br>
+				<li>Contact number:<br>
+				<input type="tel" name="ContactNumber"></li><br>
+				<br>
+				<li>Email:<br>
+				    <input type="text" name="Email" placeholder="someone@gmail.com" required></li><br><br>
+				  <input type="checkbox" value="yes" name="newsteller">
+				  Send me updates in my mailbox<br><br>
+				    <input type="submit" value="Submit">
+				    </ul>
+				  </fieldset>
+				  <br>
+				</form>
+				  <svg width="100" height="100"> <!--USED SOME SVG HERE-->
+				  <circle cx="50" cy="50" r="40"
+				  stroke="#DC4C46" stroke-width="4" fill="white" />
+				  <text x="47%" y="50%" alignment-baseline="middle" text-anchor="middle">Wait</text> 
+				Sorry, your browser does not support inline SVG.
+				</svg><br>
+				  <p>Don't hesitate to contact me on 
+				    <a href="https://www.facebook.com/DMan95">Facebook</a></p><br><br>
+				</article>
+				</div>
+				<br>
+		</section>
+		<br><br>
+	<h1 style="background-color:#33ccff; color:#ffffff; text-align:center;">About Section</h1>
+	<section class="about">
+		<br><br>
+			<img width="100%" src="subpage/image/01.png" alt="banner">
+			<div style="background-color: #DC4C46;">
+			  <h1>About D-Man</h1>
+			  <p><b style="font-size:150%;">This is Hisham Bin Ferdous A.K.A "D-MAN"</b><br>
+			in Short "Hisham".
+
+			nickname- Durjoy.
+
+			Straight outta Faridpur Town.
+			I am always in Hype..
+
+			I don't like talking about myself.
+			So
+			Have nothing much to tell.
+			I am an Ordinary human being
+			With
+			Passion for Art & science.
+			I am a Curious Soul who Seeks the truth..
+			I can see your soul through your eyes
+			So
+			When you talk. Please no lies..
+			I really appreciate people with honesty.
+			No matter who you are.
+			If you are honest with me, I will surely appreciate your presence.
+			I am really interested in you.
+			So skip this "About Muhammad" part
+			.
+			Let's talk and discover each other.
+
+			Peace. ♥
+			</p>
+			<h3><q>Don't waste your time,<br>invest it right.</q></h3>
+			<canvas id="canvas" width="200" height="200"
+			style="background-color:#DC4C46;">
+			</canvas>
+			<script>
+			  var canvas = document.getElementById("canvas");
+			  var ctx = canvas.getContext("2d");
+			  var radius = canvas.height / 2;
+			  ctx.translate(radius, radius);
+			  radius = radius * 0.90
+			  setInterval(drawClock, 1000);
+
+			  function drawClock() {
+			    drawFace(ctx, radius);
+			    drawNumbers(ctx, radius);
+			    drawTime(ctx, radius);
+			  }
+
+			  function drawFace(ctx, radius) {
+			    var grad;
+			    ctx.beginPath();
+			    ctx.arc(0, 0, radius, 0, 2*Math.PI);
+			    ctx.fillStyle = 'white';
+			    ctx.fill();
+			    grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
+			    grad.addColorStop(0, '#333');
+			    grad.addColorStop(0.5, 'white');
+			    grad.addColorStop(1, '#333');
+			    ctx.strokeStyle = grad;
+			    ctx.lineWidth = radius*0.1;
+			    ctx.stroke();
+			    ctx.beginPath();
+			    ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
+			    ctx.fillStyle = '#333';
+			    ctx.fill();
+			  }
+
+			  function drawNumbers(ctx, radius) {
+			    var ang;
+			    var num;
+			    ctx.font = radius*0.15 + "px arial";
+			    ctx.textBaseline="middle";
+			    ctx.textAlign="center";
+			    for(num = 1; num < 13; num++){
+			      ang = num * Math.PI / 6;
+			      ctx.rotate(ang);
+			      ctx.translate(0, -radius*0.85);
+			      ctx.rotate(-ang);
+			      ctx.fillText(num.toString(), 0, 0);
+			      ctx.rotate(ang);
+			      ctx.translate(0, radius*0.85);
+			      ctx.rotate(-ang);
+			    }
+			  }
+
+			  function drawTime(ctx, radius){
+			      var now = new Date();
+			      var hour = now.getHours();
+			      var minute = now.getMinutes();
+			      var second = now.getSeconds();
+			      //hour
+			      hour=hour%12;
+			      hour=(hour*Math.PI/6)+
+			      (minute*Math.PI/(6*60))+
+			      (second*Math.PI/(360*60));
+			      drawHand(ctx, hour, radius*0.5, radius*0.07);
+			      //minute
+			      minute=(minute*Math.PI/30)+(second*Math.PI/(30*60));
+			      drawHand(ctx, minute, radius*0.8, radius*0.07);
+			      // second
+			      second=(second*Math.PI/30);
+			      drawHand(ctx, second, radius*0.9, radius*0.02);
+			  }
+
+			  function drawHand(ctx, pos, length, width) {
+			      ctx.beginPath();
+			      ctx.lineWidth = width;
+			      ctx.lineCap = "round";
+			      ctx.moveTo(0,0);
+			      ctx.rotate(pos);
+			      ctx.lineTo(0, -length);
+			      ctx.stroke();
+			      ctx.rotate(-pos);
+			  }
+			</script>
+			</div>
+	</section>
+	    <br><br>
+	    <h1 style="background-color:#33ccff; color:#ffffff; text-align:center;">Contact Section</h1>
+	<section class="contact">
+				<img width="100%" src="subpage/image/02.png" alt="Find me on Social Sites">
+				<br>
+				<h3>Click on the images below</h3> 
+				<br>Follow me on: <br><!--using link with images-->
+				<a href="http://www.facebook.com/DMan95" target="_blank">
+					<img src="subpage/image/33.png" alt="facebook"></a>
+				<br> Follow me on Twitter:<br>
+				<a href="http://www.twitter.com/greenfreak" target="_blank">
+					<img src="subpage/image/333.png" alt="twitter"></a>
+				<br><p>Follow me on:<br>
+				<a href="https://www.instagram.com/rapton95/" target="_blank"><img src="subpage/image/3333.png" alt="instagram">
+				</a>
+				<br>
+	</section>
+	          <!--USED BACKGROUND IMAGE TAG IN THIS INLINE CSS-->
+		<footer style="background-image: url(images/7.jpg); text-align: center;padding:2em;">Developed BY Hisham &copy</footer>
+	</body>
+</html>

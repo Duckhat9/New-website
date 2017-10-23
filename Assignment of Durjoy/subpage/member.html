@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"><!--this tag defines the character set of this page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membership page</title>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+<svg height="130" width="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="20%"
+      style="stop-color:#ed7171;stop-opacity:2" />
+      <stop offset="100%"
+      style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana"
+  x="43" y="86">DMan</text>
+Sorry, your browser does not support inline SVG.
+</svg>
+<div class="container">
+
+<header>
+   <h1>Membership</h1>
+</header>
+  
+<article>
+  <form style="background-color:#DC4C46" action="mailto:durontodurjoy@gmail.com" method="post" enctype="text/plain">
+  <fieldset>
+    <legend>Personal information:</legend>
+    <ul>
+    <li>First name:<br>
+    <input type="text" name="firstname" placeholder="first name" autofocus required></li><br>
+    <li>Last name:<br>
+    <input type="text" name="lastname" placeholder="last name"></li><br><br>
+            <li>Your Gender:<br>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other</li><br><br>
+    <li>country:<br>
+    <select name="country" required>
+    <option value="India">India</option>
+    <option value="Bangladesh">Bangladesh</option>
+    <option value="England">England</option>
+    </select></li>
+    <br><br>
+    <li>Profile pic:<input type="file" name="img" multiple></li>
+    <br><br>
+    <li>Favourite smartphone<br>
+    <input list="Device" name="Device" placeholder="device name">
+  <datalist id="Device">
+    <option value="Symphony">
+    <option value="Xiaomi">
+    <option value="Nokia">
+    <option value="Samsung">
+    <option value="HTC">
+  </datalist></li>
+  <br><br>
+  <li>Your favorite color<br><input type="color" name="color" value="#DC4C46"></li>
+  <br><br>
+  <li>Birthday:
+  <input type="date" name="bday" required></li>
+<br><br>
+<li>Number of siblings
+<input type="number" name="quantity" min="1" max="5"></li><br><br>
+<li>Contact number:<br>
+<input type="tel" name="ContactNumber"></li><br>
+<br>
+<li>Email:<br>
+    <input type="text" name="Email" placeholder="someone@gmail.com" required></li><br><br>
+  <input type="checkbox" value="yes" name="newsteller">
+  Send me updates in my mailbox<br><br>
+    <input type="submit" value="Submit">
+    </ul>
+  </fieldset>
+  <br>
+</form>
+  <svg width="100" height="100"> <!--USED SOME SVG HERE-->
+  <circle cx="50" cy="50" r="40"
+  stroke="#DC4C46" stroke-width="4" fill="white" />
+  <text x="47%" y="50%" alignment-baseline="middle" text-anchor="middle">Wait</text> 
+Sorry, your browser does not support inline SVG.
+</svg><br>
+  <p>Don't hesitate to contact me on 
+    <a href="https://www.facebook.com/DMan95">Facebook</a></p><br><br>
+</article>
+<!--Use of footer tag-->
+<footer> Developed by Hisham&copy;</footer>
+
+</div>
+
+</body>
+</html>
